@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: Pass123
+    url: jdbc:mysql://localhost:3306/springjdbc
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
